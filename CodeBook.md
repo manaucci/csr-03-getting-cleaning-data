@@ -35,8 +35,22 @@ The set of variables that were estimated from these signals are:
 * std(): Standard deviation
 * meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
+The files with the data sets are as follows
+* features.txt: List of all features.
+* activity_labels.txt: Links the class labels with their activity name.
+* X_train.txt: This is the Training set.
+* y_train.txt: This contains the Training labels.
+* X_test.txt: This is the Test set.
+* y_test.txt: This contains the Test labels.
 
-The complete list of variables of each feature vector is listed below
+The subject and activity data were added to the data set
+* subject_activity: This is the activity label
+* subject: This is the subject ID. 
+* activity: These are the activity IDs and will correspond to the subject_activity labels
+
+The data under each list of variables are the the mean values for each activity for each subject i.e., each variable will have 6 means (one for each activity) per subject.
+
+The complete list of variables of each activity mean is listed below
 
 * tBodyAcc-mean()-Y
 * tBodyAcc-mean()-Z
